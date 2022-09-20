@@ -1,0 +1,12 @@
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.deps.json
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.pdb
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.csproj.AssemblyReference.cache
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.AssemblyInfoInputs.cache
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.AssemblyInfo.cs
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.csproj.CoreCompileInputs.cache
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\refint\TiendaServicios.RabbitMQ.Bus.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.pdb
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.RabbitMQ.Bus\obj\Debug\net6.0\ref\TiendaServicios.RabbitMQ.Bus.dll

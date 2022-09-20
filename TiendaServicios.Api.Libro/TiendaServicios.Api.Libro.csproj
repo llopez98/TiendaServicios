@@ -22,4 +22,8 @@
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj" />
+	</ItemGroup>
+
 </Project>
