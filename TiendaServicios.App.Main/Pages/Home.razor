@@ -1,10 +1,18 @@
 ﻿@page "/home"
 @inject HttpClient Http
 
-
 <h3>Get Page</h3>
 
 @if(libros != null){
+    <SfGrid DataSource="@libros">
+        <GridColumns>
+            <GridColumn Field=@nameof(Libros.LibreriaMaterialId) HeaderText="Código del libro"></GridColumn>
+            <GridColumn Field=@nameof(Libros.Titulo) HeaderText="Titulo"></GridColumn>
+            <GridColumn Field=@nameof(Libros.FechaPublicacion) HeaderText="Fecha de Publicacion"></GridColumn>
+            <GridColumn Field=@nameof(Libros.AutorLibro) HeaderText="Código del Autor"></GridColumn>
+        </GridColumns>
+    </SfGrid>
+
     <ul>
         @foreach (var libro in libros)
         {
@@ -34,22 +42,68 @@
     <button type="submit">Send</button>
 </EditForm>
 
+<br />
+
+<h4>Sección de update</h4>
+<EditForm Model="@librosPost" OnValidSubmit="@onSubmitUpdate">
+    <label>
+        Id:
+        <InputText @bind-Value="librosPost.LibreriaMaterialId" />
+    </label>
+    <label>
+        Titulo:
+        <InputText @bind-Value="librosPost.Titulo" />
+    </label>
+    <label>
+        Fecha publicacion:
+        <InputText @bind-Value="librosPost.FechaPublicacion" />
+    </label>
+    <label>
+        AutorLibro:
+        <InputText @bind-Value="librosPost.AutorLibro" />
+    </label>
+
+    <button type="submit">Send</button>
+</EditForm>
+
+<br />
+
+<h4>Sección de delete</h4>
+
+    <label>
+        Inserte el id del libro a eliminar:
+    <input @bind="id" />
+    </label>
+    <br/>
+    <button type="submit" onclick="@onSubmitDelete">Send</button>
+
 @code {
-    private Libros[]? libros;
+    //private Libros[]? libros;
+    private List<Libros> libros;
+    private Libros librosPost = new Libros();
+    private string id;
 
-    protected override async Task OnInitializedAsync() => libros = await Http.GetFromJsonAsync<Libros[]>("http://localhost:5089/Libro");
+    protected override async Task OnInitializedAsync() => libros = await Http.GetFromJsonAsync<List<Libros>>("http://localhost:5089/Libro");
 
-    public class Libros {
+    //envio de datos
+    private async void onSubmit() {
+        await Http.PostAsJsonAsync("http://localhost:5089/Libro", librosPost);
+    }
+
+    //update
+    private async void onSubmitUpdate() {
+        await Http.PutAsJsonAsync("http://localhost:5089/Libro", librosPost);
+    }
+
+    //delete
+    private async Task onSubmitDelete() => await Http.DeleteAsync($"http://localhost:5089/Libro/{id}");
+
+    //clase modelo
+    public class Libros
+    {
         public string? LibreriaMaterialId { get; set; }
         public string Titulo { get; set; }
         public string? FechaPublicacion { get; set; }
         public string? AutorLibro { get; set; }
-    }
-
-    //envio de datos
-    private Libros librosPost =  new Libros();
-
-    private async void onSubmit() {
-        await Http.PostAsJsonAsync("http://localhost:5089/Libro", librosPost);
     }
 }
