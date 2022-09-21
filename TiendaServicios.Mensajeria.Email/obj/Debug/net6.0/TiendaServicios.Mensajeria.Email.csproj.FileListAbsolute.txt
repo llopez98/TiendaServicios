@@ -1,0 +1,12 @@
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net6.0\TiendaServicios.Mensajeria.Email.deps.json
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net6.0\TiendaServicios.Mensajeria.Email.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\bin\Debug\net6.0\TiendaServicios.Mensajeria.Email.pdb
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.csproj.AssemblyReference.cache
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.AssemblyInfoInputs.cache
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.AssemblyInfo.cs
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.csproj.CoreCompileInputs.cache
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\refint\TiendaServicios.Mensajeria.Email.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\TiendaServicios.Mensajeria.Email.pdb
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Mensajeria.Email\obj\Debug\net6.0\ref\TiendaServicios.Mensajeria.Email.dll
