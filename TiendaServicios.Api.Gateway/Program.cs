@@ -9,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddOcelot().AddDelegatingHandler<LibroHandler>();
 
+builder.Services.AddCors();
+
 //Add scoped no funciona a nivel de middleware
 builder.Services.AddSingleton<IAutorRemote, AutorRemote>();
 
@@ -32,6 +34,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseCors(builder => builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 
 await app.UseOcelot();
 

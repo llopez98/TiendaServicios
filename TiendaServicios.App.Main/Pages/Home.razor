@@ -15,6 +15,24 @@
     <p>Error al traer los datos</p>
 }
 
+<br />
+
+<EditForm Model="@librosPost" OnValidSubmit="@onSubmit">
+    <label>
+        Titulo:
+        <InputText @bind-Value="librosPost.Titulo"/>
+    </label>
+    <label>
+        Fecha publicacion:
+        <InputText @bind-Value="librosPost.FechaPublicacion" />
+    </label>
+    <label>
+        AutorLibro:
+        <InputText @bind-Value="librosPost.AutorLibro" />
+    </label>
+
+    <button type="submit">Send</button>
+</EditForm>
 
 @code {
     private Libros[]? libros;
@@ -26,5 +44,12 @@
         public string Titulo { get; set; }
         public string? FechaPublicacion { get; set; }
         public string? AutorLibro { get; set; }
+    }
+
+    //envio de datos
+    private Libros librosPost =  new Libros();
+
+    private async void onSubmit() {
+        await Http.PostAsJsonAsync("http://localhost:5089/Libro", librosPost);
     }
 }
