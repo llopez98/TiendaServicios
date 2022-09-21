@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Gateway", "TiendaServicios.Api.Gateway\TiendaServicios.Api.Gateway.csproj", "{14076162-30C5-4E0D-84E1-D29B42A73E66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.RabbitMQ.Bus", "TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj", "{91D7E853-A361-4E41-8E58-A98E5F5884BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.RabbitMQ.Bus", "TiendaServicios.RabbitMQ.Bus\TiendaServicios.RabbitMQ.Bus.csproj", "{91D7E853-A361-4E41-8E58-A98E5F5884BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Mensajeria.Email", "TiendaServicios.Mensajeria.Email\TiendaServicios.Mensajeria.Email.csproj", "{7A6AB87F-617A-4707-9513-3AEE21A42FF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Mensajeria.Email", "TiendaServicios.Mensajeria.Email\TiendaServicios.Mensajeria.Email.csproj", "{7A6AB87F-617A-4707-9513-3AEE21A42FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.App.Main", "TiendaServicios.App.Main\TiendaServicios.App.Main.csproj", "{1FF3FDB4-43BF-4FD6-85D0-1F627BD77FB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{7A6AB87F-617A-4707-9513-3AEE21A42FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A6AB87F-617A-4707-9513-3AEE21A42FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A6AB87F-617A-4707-9513-3AEE21A42FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF3FDB4-43BF-4FD6-85D0-1F627BD77FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF3FDB4-43BF-4FD6-85D0-1F627BD77FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF3FDB4-43BF-4FD6-85D0-1F627BD77FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF3FDB4-43BF-4FD6-85D0-1F627BD77FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

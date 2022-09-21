@@ -46,3 +46,7 @@ C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug
 C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Autor\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.pdb

@@ -1,0 +1,30 @@
+﻿@page "/home"
+@inject HttpClient Http
+
+
+<h3>Get Page</h3>
+
+@if(libros != null){
+    <ul>
+        @foreach (var libro in libros)
+        {
+            <li>@libro.Titulo</li>
+        }
+    </ul>
+}else {
+    <p>Error al traer los datos</p>
+}
+
+
+@code {
+    private Libros[]? libros;
+
+    protected override async Task OnInitializedAsync() => libros = await Http.GetFromJsonAsync<Libros[]>("http://localhost:5089/Libro");
+
+    public class Libros {
+        public string? LibreriaMaterialId { get; set; }
+        public string Titulo { get; set; }
+        public string? FechaPublicacion { get; set; }
+        public string? AutorLibro { get; set; }
+    }
+}

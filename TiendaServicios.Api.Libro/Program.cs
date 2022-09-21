@@ -10,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 
+builder.Services.AddCors();
+
 ConfigurationManager configuration = builder.Configuration;
 
 builder.Services.AddDbContext<ContextoLibreria>(opt => {
@@ -35,7 +37,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapGet("/", () => "Hello World!");
+app.UseCors(builder => builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
