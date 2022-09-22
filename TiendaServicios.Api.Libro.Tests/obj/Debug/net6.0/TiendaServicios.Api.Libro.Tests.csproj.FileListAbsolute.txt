@@ -124,3 +124,6 @@ C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\obj
 C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\obj\Debug\net6.0\ref\TiendaServicios.Api.Libro.Tests.dll
 C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\net6.0\GenFu.dll
 C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.dll
+C:\Users\llopez\source\repos\TiendaServicios\TiendaServicios.Api.Libro.Tests\bin\Debug\net6.0\TiendaServicios.RabbitMQ.Bus.pdb
